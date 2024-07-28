@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="frdesign">
+    <header>
+    <h1>Student Registration Form</h1>
+    </header>
+    <form>
+        <label>First Name:</label><br>
+        <input type="text" placeholder="Enter Your First Name" class="box" required><br>
+        <label>Middle Name:</label><br>
+        <input type="text" placeholder="Enter Your Middle Name" class="box" required><br>
+        <label>Last Name:</label><br>
+        <input type="text" placeholder="Enter Your Last Name" class="box" required><br>
+        <label>Course:</label>
+        <select name="Course" id="">
+            <option value="">--Please choose an option--</option>
+            <option value="bsc hons">4 Year Bsc(Hons)</option>
+            <option value="Bsc Pass">3 Year Bsc General</option>
+            <option value="ba hons">4 Year B.A(Hons)</option>
+            <option value="Ba General">3 Year B.A General</option>
+            <option value="bcom hons">4 Year B.Com(Hons)</option>
+            <option value="bcom pass">3 Year B.Com General</option>
+        </select><br>
+        <label for="">Gender:</label><br>
+            <input type="radio" name="gender" value="Male">Male 
+            <input type="radio" name="gender" value="Female">Female
+            <input type="radio" name="gender" value="Others">Others
+            <br>
+        <label for="Phone Number">Phone Number:</label>
+            <input type="tel" name="Phone Number" maxlength="10" class="box" required><br>
+        <label for="adress">Current Adress:</label><br>
+            <textarea name="adress" rows="10" cols="50" placeholder="Enter Your Current Adress" class="box" required></textarea><br>
+        <label for="Email">Email Id:</label>
+            <input type="email" name="Email" placeholder="Enter Your Email" class="box" required><br>
+        <label for="Password">Password:</label>
+            <input type="password" name="Password" placeholder="Enter Your Password" class="box" required><br>
+        <label for="Confirm Password">Confirm Password:</label>
+            <input type="password" name="Confirm Password" placeholder="Re-Enter Your Password" class="box" required><br>
+        <button type="Submit" class="Submit">Submit</button>
+    </form>
+</div>
+</body>
+</html>
