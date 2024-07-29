@@ -14,7 +14,7 @@
 } */
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    width: 100vw;
+    width: 60vw;
     height: auto;
     background: url(https://www.collegeadmission.in/Seth_Anandaram_Jaipuria_College/images/Seth_Anandaram_Jaipuria_College.jpg) no-repeat;
     background-size: cover;
@@ -22,10 +22,12 @@ body {
     overflow-x: hidden;
     padding: 40px 0;
     position: relative;
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
     z-index: 2;
+    margin-left:450px;
+    margin-right:20px;
 }
 
 body::before {
